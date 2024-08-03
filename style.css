@@ -1,13 +1,14 @@
 /* Definindo estilo global */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url('images/background.jpeg') no-repeat center center fixed; /* Adiciona uma imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
 }
 
 /* Container centralizado */
